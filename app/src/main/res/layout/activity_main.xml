@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.laporra.MainActivity"
+    android:weightSum="1">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+                <GridLayout
+                    android:id="@+id/sevilla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_red_dark"
+                    android:columnCount="5"
+                    android:rotation="45"
+                    android:rowCount="5"
+                    android:layout_alignParentBottom="false"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerHorizontal="false"
+                    android:layout_marginTop="42dp"
+                    android:padding="1dp">
+
+
+                        <ImageView
+                            android:id="@+id/a1"
+                            style="@style/casilla"
+                            />
+                        <ImageView
+                            android:id="@+id/a2"
+                            style="@style/casilla"
+                            />
+
+                        <ImageView
+                            android:id="@+id/a3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/a4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/a5"
+                            style="@style/casillaseleccionada" />
+
+
+                        <ImageView
+                            android:id="@+id/b1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/b2"
+                            style="@style/casilla"
+                             />
+
+                        <ImageView
+                            android:id="@+id/b3"
+                            style="@style/casilla"
+                             />
+
+                        <ImageView
+                            android:id="@+id/b5"
+                            style="@style/casilla" />
+
+
+                        <ImageView
+                            android:id="@+id/c1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/c2"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/c3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/c4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/c5"
+                            style="@style/casillaocupada" />
+
+                        <ImageView
+                            android:id="@+id/d1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/d2"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/d3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/d4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/d5"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/e1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/e2"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/e3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/e4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/e5"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/b4"
+                            style="@style/casilla" />
+
+
+                </GridLayout>
+
+
+
+
+
+
+
+                <GridLayout
+                    android:id="@+id/betis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_light"
+                    android:columnCount="5"
+                    android:padding="1dp"
+                    android:rotation="45"
+                    android:rowCount="5"
+                    android:layout_alignParentBottom="false"
+                    android:layout_centerHorizontal="false"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="85dp">
+
+
+                        <ImageView
+                            android:id="@+id/aa1"
+                            style="@style/casilla"
+                            />
+                        <ImageView
+                            android:id="@+id/aa2"
+                            style="@style/casilla"
+                            />
+
+                        <ImageView
+                            android:id="@+id/aa3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/aa4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/aa5"
+                            style="@style/casilla" />
+
+
+                        <ImageView
+                            android:id="@+id/bb1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/bb2"
+                            style="@style/casilla"
+                            />
+
+                        <ImageView
+                            android:id="@+id/bb3"
+                            style="@style/casilla"
+                            />
+
+                        <ImageView
+                            android:id="@+id/bb4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/bb5"
+                            style="@style/casilla" />
+
+
+                        <ImageView
+                            android:id="@+id/cc1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/cc2"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/cc3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/cc4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/cc5"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/dd1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/dd2"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/dd3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/dd4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/dd5"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ee1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ee2"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ee3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ee4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ee5"
+                            style="@style/casilla" />
+
+
+
+                </GridLayout>
+        </LinearLayout>
+
+
+</LinearLayout>
